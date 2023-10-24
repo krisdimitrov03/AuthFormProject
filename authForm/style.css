@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+#navigation {
+    background-color: rgb(24, 49, 119);
+    color: white;
+    padding: 20px;
+    text-align: right;
+}
+
+#navigation span {
+    margin: 0 10px;
+}
+
+#navigation span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#main {
+    padding: 200px 30px;
+    text-align: center;
+}
+
+form {
+    background-color: lightgrey;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+form .input-data,
+form .submit-btn {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: rgb(24, 49, 119);
+    color: white;
+    padding: 5px 40px!important;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(16, 60, 117);
+}
